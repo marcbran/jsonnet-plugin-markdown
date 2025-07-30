@@ -1,4 +1,13 @@
 
+test:
+    @jpoet test
+
+build: test
+    @jpoet pkg build
+
+push: build
+    @jpoet pkg push
+
 check-git-state:
     #!/usr/bin/env bash
     set -eu
