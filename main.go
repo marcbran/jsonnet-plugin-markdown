@@ -1,13 +1,7 @@
 package main
 
-import (
-	"github.com/google/go-jsonnet"
-	"github.com/marcbran/jpoet/pkg/jpoet"
-)
+import "github.com/marcbran/jsonnet-plugin-markdown/markdown"
 
 func main() {
-	jpoet.Serve([]jsonnet.NativeFunction{
-		ParseMarkdown(),
-		ManifestMarkdown(),
-	})
+	markdown.Plugin().Serve()
 }
