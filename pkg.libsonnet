@@ -3,8 +3,8 @@ local p = import 'pkg/main.libsonnet';
 p.pkg({
   source: 'https://github.com/marcbran/jsonnet-plugin-markdown',
   repo: 'https://github.com/marcbran/jsonnet.git',
-  branch: 'markdown',
-  path: 'markdown',
+  branch: 'plugin-markdown',
+  path: 'plugin/markdown',
   target: 'md',
 }, |||
   DSL for creating Markdown documents.
