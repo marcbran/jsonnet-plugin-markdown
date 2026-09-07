@@ -7,7 +7,7 @@ require (
 	github.com/marcbran/jpoet v0.20.0
 	github.com/stretchr/testify v1.12.1
 	github.com/teekennedy/goldmark-markdown v0.5.1
-	github.com/yuin/goldmark v1.8.5
+	github.com/yuin/goldmark v1.8.6
 )
 
 require (
