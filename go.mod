@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/google/go-jsonnet v0.22.0
-	github.com/marcbran/jpoet v0.26.0
+	github.com/marcbran/jpoet v0.27.0
 	github.com/stretchr/testify v1.12.1
 	github.com/teekennedy/goldmark-markdown v0.5.1
 	github.com/yuin/goldmark v1.8.6
