@@ -1,7 +1,7 @@
 local p = import 'pkg/main.libsonnet';
 
 p.pkg({
-  source: 'https://github.com/marcbran/jsonnet-plugin-markdown',
+  source: 'https://github.com/marcbran/jsonnet-plugin-markdown/tree/main/pkg/jsonnet-plugin-markdown',
   repo: 'https://github.com/marcbran/jsonnet.git',
   branch: 'plugin/markdown',
   path: 'plugin/markdown',
